@@ -1,0 +1,37 @@
+<html>
+    <head>
+       <title>Tikt</title> 
+       <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js"></script>
+       <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase.js"></script>
+       <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-database.js"></script>
+       <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-analytics.js"></script>
+       <script type="text/javascript" src="login.js"></script>
+    </head>
+    <body>
+        <link rel="stylesheet" href="Login.css">
+        <div class="log_im">
+            <center>
+            <img src="logo.PNG" width="150px" height="135px">
+            <br><br><br><br><br>    
+            </center>       
+        </div>
+        <div class="name">
+           <center> <h1>TiKt</h1></center>
+        </div>
+
+        <div class="login"> 
+
+                <form method="post">
+                    <center>
+                    <label for="fn">Username:</label>
+                    <input type="text" name="un" id="un" placeholder="UserName" autofocus autocomplete="OFF" required>
+                    <br><br>
+                    <label for="fn">Password:</label>
+                    <input type="Password" name="pw" id="pw" placeholder="Password" autocomplete="OFF" required>
+                    <br><br>
+                    <input type=button id="submit" value="Submit" onclick="clicker()">
+                </center>
+                </form>
+        </div>
+    </body>
+</html>

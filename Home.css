@@ -1,0 +1,90 @@
+.main{
+    display: grid;
+    grid-template-columns: 400px 400px ;
+
+ 
+    grid-auto-columns: 150px;
+    grid-auto-rows: 150px;
+    align-items: center;
+    justify-content: center;
+
+}
+.logoutbutton{
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+.log_im{
+    height: 140px;
+    width: 60%;
+    padding-left: 58%;
+    padding-right: 0%;
+    }
+.name{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size:20px;
+        color: #0735B7;
+        height: 140px;
+        width: 40%;
+        padding-right: 35%;
+        padding-left: 0%;
+    }   
+.logoutbutton{
+    float: right;
+    color: #0735B7;
+}
+#lobutton{
+    background-color: #0735B7; /* Green */
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+#lobutton:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); 
+}
+    #userLists li:hover {
+        background: skyblue;
+        cursor: pointer;
+	   }
+	   
+	   #userDetail {
+		float:left;
+		width:1000px;
+		margin:10px;
+		margin-left:0;
+		padding:10px;
+		border:1px solid ;
+		columns: #4CAF50;
+        border:1px solid #4CAF50;
+        
+         }
+.allcontent{
+    width: 100%;
+}
+.content{
+    border-color: #0735B7;
+    border-style: solid;
+    border-width: 2px;;
+    width: 28%;
+    float: left;
+    color: #0735B7;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+.userDetails{
+    border-color: #0735B7;
+    border-style: solid;
+    border-width: 2px;
+    width: 69%;
+    padding-left: 25px;
+    float: right;   
+    margin-left: 2px;
+    
+}

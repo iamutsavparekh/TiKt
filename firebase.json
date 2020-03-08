@@ -1,0 +1,39 @@
+{
+    "Users": {
+      "123": {
+        "Name": "test",
+        "Phone": "123",
+        "Pass": "123",
+        "Dir": "02",
+        "Source": "5",
+        "Dest": "0",
+        "TicketId": "101"
+      },
+      "9004525005": {
+        "Name": "Utsav Parekh",
+        "Phone": "9004525005",
+        "Pass": "5982",
+        "Dir": "01",
+        "Source": "0",
+        "Dest": "5",
+        "TicketId": "100"
+      }
+    },
+    "Admins": {
+      "0": {
+        "Id": "0",
+        "Pass": "123"
+      },
+      "1": {
+        "Id": "1",
+        "Pass": "234"
+      }
+    },
+    "Offenders":{
+      "1":{
+        "Id":"9004525005",
+        "Dest":"3",
+        "Current":"5"
+      }
+    }
+  }
